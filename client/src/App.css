@@ -1,0 +1,86 @@
+* {
+  overflow-x: hidden;
+  font-size: small;
+  font-family: system-ui, "-apple-system", "BlinkMacSystemFont", "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+.btn1 {
+  background-color: white;
+}
+.btn1:hover {
+  background-color: rgb(122, 248, 122);
+}
+.btn1:focus {
+  background-color: rgb(53, 144, 53);
+  color: white;
+}
+.form-switch .form-check-input {
+  height: 24px;
+  width: 48px;
+}
+
+.form-switch .form-check-input:focus {
+  border-color: rgba(0, 0, 0, 0.25);
+  outline: 0;
+  width: 50px;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
+.form-switch .form-check-input:checked {
+  background-color: #30d158;
+  border-color: #30d158;
+  width: 50px;
+  border: none;
+}
+.btn {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+
+.span{
+  color:red
+}
+/* SignIn.css */
+/* .password-form {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+} */
+.span {
+  color: red;
+  font-size: 0.9em;
+}
+
+/* @media (max-width: 768px) {
+  .password-form {
+    width: 90%;
+  }
+} */
+
+@media (max-width: 450px) {
+  .h-custom {
+  /* height: 100%; */
+  }
+  }
+/* @media (max-width: 576px) {
+  .password-form {
+    width: 100%;
+  }
+} */
+.vh-100 {
+  min-height: 100vh;
+}
+
+.h-custom {
+  height: auto;
+}

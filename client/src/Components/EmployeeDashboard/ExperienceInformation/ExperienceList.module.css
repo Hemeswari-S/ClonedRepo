@@ -1,0 +1,99 @@
+.experienceCard {
+    background-color:white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experienceCard:hover {
+    /* transform: translateY(-5px); */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.cardTitle {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #333;
+}
+
+/* .cardButton {
+    font-style: italic;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 8px;
+    display: block;
+} */
+
+.modalTitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: #444;
+}
+
+.modalContent p {
+    margin-bottom: 12px;
+    color: #666;
+}
+
+/* view */
+
+.experienceButton {
+    background-color:rgb(2,51,255); 
+    color: white;
+    border-radius: 50%;    
+    width: 40px; 
+    height: 30px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease; 
+}
+
+
+
+.experienceButton.pill {
+    border-radius: 20px;
+    padding: 8px 16px;
+    width: auto; 
+    height: auto; 
+}
+.expbtn{
+    font-style: italic;
+    background:rgb(80,243,196);
+    height: 50px;
+    margin-bottom: 8px;
+    display: block;
+}
+.offerbtn{
+    font-style: italic;
+    background:rgb(238,155,157);
+    height: 50px;
+    margin-bottom: 8px;
+    display: block;
+}
+.relivingbtn{
+    font-style: italic;
+    background:rgb(157,160,157);
+    height: 50px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+/* Add Experience */
+.addexpbtn{
+    padding: 12px 12px 12px 12px;  
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.addExperienceButton {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color:rgb(50,185,183); 
+    height: 50px;
+    color: white;
+    border: none; 
+}
+    
+

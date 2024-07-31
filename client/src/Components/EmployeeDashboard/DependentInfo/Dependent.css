@@ -1,0 +1,32 @@
+#view-dependent{
+    color: rgb(255,255,255);
+    background-color: rgb(0,0,156);
+}
+#edit-dependent{
+    color: rgb(255,255,255);
+    background-color: rgb(0,255,145);
+}
+#del-dependent{
+    color: rgb(255,255,255);
+    background-color: rgb(230,28,4);
+}
+
+/* Parentdependent */
+#emp-dep{
+    color: crimson;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.dependent-info {
+    position: relative;
+}
+
+.add-dependent-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

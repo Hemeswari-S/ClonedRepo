@@ -1,0 +1,89 @@
+/* General Container Styles */
+.container {
+  background-color: #E6FEE6;
+  padding: 20px;
+}
+
+/* Card and Card Content Styles */
+.card-title {
+  background-color: #f4f9f5;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.card-content {
+  background-color: #f4f9f5;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* List Item Styles */
+.list-item {
+  border-bottom: 1px solid #f4f9f5;
+}
+
+/* Button Styles */
+.header-button {
+  background-color: #a7f3d0;
+  color: #065f46;
+  border: none;
+}
+
+.header-button:hover {
+  background-color: #6ee7b7;
+}
+
+/* Tabs Content Styles */
+.tabs-content {
+  background-color: #fcfcfc;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+  .card-title,
+  .card-content {
+    padding: 8px;
+  }
+
+  .list-item {
+    padding: 8px;
+  }
+
+  .header-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .tabs-content {
+    padding: 10px;
+  }
+
+  .row > .col-md-3,
+  .row > .col-md-9,
+  .row > .col-md-4,
+  .row > .col-md-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+}

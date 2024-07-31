@@ -1,0 +1,301 @@
+
+.personal-info-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: 	rgb(255,65,92);
+  border: 1px solid #e2d5d5;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgb(1,0,80);  /* rgba(225, 10, 10, 0.1 */
+}
+
+.profile-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+  position: relative;
+}
+
+.profile-image-round {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.edit-image-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  /* opacity: 0;*/
+  transition: opacity 0.3s; 
+}
+
+.edit-image-label:hover {
+  opacity: 1;
+}
+
+.camera-icon {
+  font-size: 24px;
+}
+
+.profile-name {
+  flex-grow: 1;
+ 
+}
+
+.profile-name p {
+  margin: 0;
+  font-size: large;
+  color: #f2f4f9;
+  font-style: italic;
+  font-weight: bold;
+
+}
+
+.edit-icon {
+  position: absolute;
+  top: -15px; 
+  right: 10px;
+  cursor: pointer;
+  color: #000a0b;
+  font-size: 24px;
+}
+
+.profile-details {
+  margin-bottom: 20px;
+}
+
+.upload-section {
+  margin-bottom: 20px;
+}
+
+.info-card {  
+  padding: 2px;
+  background-color:#177764;
+  /* border: 2px solid #0a0000; */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.info-card label {
+  font-weight: bold;
+  display: block;
+}
+
+.info-card p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.card-input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.edit-form .card-input[name="PersonalEmailId"] {
+  color: #ff0000; /* Change color to red as an example */
+}
+
+/* button {
+  padding: 10px 20px;
+  background-color: #0e9e7d;
+  color: white;
+ 
+  border-radius: 20px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+button:hover {
+  background-color: #21e9d9;
+} */
+
+
+.save-button{
+  padding: 10px 20px;
+  background-color: #0e9e7d;
+  color: #000080; 
+  /* border-radius: 20px; */
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  align-self: flex-start;
+}
+.save-button:hover{
+  background-color: #21e9d9
+}
+
+.cancel-button {
+  background-color: rgb(14, 220, 65);
+  color: white;
+  /* border-radius: 20px; */
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  margin-left: 8px; 
+  cursor: pointer;
+  float: right; 
+}
+
+.cancel-button:hover {
+  background-color: rgb(15, 198, 115); 
+}
+/* .card-input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #333; 
+}
+
+.personal-email-input {
+  color: #ec1278; 
+}
+*/ 
+
+/* Card Input Styles */
+/* .card-input.personalemailid {
+  color: #ab1861;
+  font-weight: bold;
+  font-style: italic;
+} */
+
+/* Card Input Styles for Other Fields */
+
+/* Label Styles */
+/* .card-label.personalemailid {
+  color: #0313a3;
+  font-weight: bold;
+  font-size: 15px;
+} */
+
+/* Add similar styles for other labels if needed */
+.card-label.gender {
+  color: #0313a3; 
+  font-size: 15px;
+}
+
+.card-label.dateofbirth {
+  color: #0313a3; 
+  font-size: 15px;
+}
+
+.card-label.idproofone {
+  color: #0313a3; 
+  font-size: 15px;
+}
+
+.card-label.idprooftwo{
+  color: #0313a3; 
+  font-size: 15px;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-card-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.info-card-row .info-card {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.info-card-row .info-card:last-child {
+  margin-right: 0;
+}
+
+.idproofone a, .idprooftwo a {
+  color: rgb(213, 16, 16); 
+  text-decoration: none;
+}
+
+.idproofone a:hover, .idprooftwo a:hover {
+  color: rgb(5, 112, 104); 
+}
+
+.personal-email-label{
+  color:rgb(1,0,80);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.personal-email-value{
+  color: rgb(255,98,156);
+  font-size: 15px;
+  font-weight: bold;
+}
+.personal-dob-label{
+  color:rgb(1,0,80);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.personal-dob-value{
+  color: rgb(255,98,156);
+  font-size: 15px;
+  font-weight: bold;
+}
+.personal-gender-label{
+  color:rgb(1,0,80);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.personal-gender-value{
+  color: rgb(255,98,156);
+  font-size: 15px;
+  font-weight: bold;
+}
+.personal-idone-label{
+  color:rgb(1,0,80);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.personal-idtwo-label{
+  color:rgb(1,0,80);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+

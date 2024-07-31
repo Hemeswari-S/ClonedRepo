@@ -1,0 +1,242 @@
+.dept{
+  color: rgb(4, 181, 175);
+  font-size: 1.5rem;
+  font-family:'Times New Roman', Times, serif;
+  margin-top: 20px;
+}
+
+.btn-primary mb-3{
+  background-color: #fff;
+}
+
+.popup-card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1050;
+  width: 90%;
+  max-width: 400px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1040;
+}
+
+/* Department.css */
+
+/* Styling for modal backdrop */
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+}
+
+/* Styling for modal content */
+.modal-content {
+  background-color: #ffffff; /* White background */
+  border: none; /* Remove default border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Styling for modal header */
+.modal-header {
+  background-color: #00A36C; /* Dark green background */
+  color: #ffffff; /* White text */
+  border-top-left-radius: 10px; /* Rounded corners */
+  border-top-right-radius: 10px; /* Rounded corners */
+}
+
+/* Styling for modal title */
+.modal-title {
+  font-weight: bold;
+}
+
+/* Styling for modal body */
+.modal-body {
+  padding: 20px;
+}
+
+/* Styling for modal footer */
+.modal-footer {
+  border-top: none; /* Remove border */
+  padding: 10px 20px;
+}
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+
+.text-danger {
+  font-size: 14px;
+  color: #dc3545; /* Red color */
+}
+
+/* Styling for buttons */
+.btn {
+  border-radius: 5px;
+}
+
+/* Custom button colors */
+.btn-primary {
+  background-color: #007BFF; 
+  border-color: #007BFF; 
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; 
+  border-color: #0056b3; 
+}
+
+.btn-success {
+  background-color: #28a745; 
+  border-color: #28a745; 
+}
+
+.btn-success:hover {
+  background-color: #218838; 
+  border-color: #218838; 
+}
+
+.btn-secondary {
+  background-color: #6c757d; 
+  border-color: #6c757d; 
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268; 
+  border-color: #5a6268;
+}
+
+.btn-close {
+  color: #ffffff; 
+  opacity: 1;
+}
+
+.btn-close:hover {
+  color: #ffffff;
+  opacity: 1; 
+}
+
+/* Department.css */
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-card {
+  background-color: #ffffff;
+  width: 350px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.popup-card h5 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.popup-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-card .mb-3 {
+  margin-bottom: 15px;
+}
+
+.popup-card label {
+  font-weight: bold;
+  color: #333333;
+}
+
+.popup-card input[type="text"],
+.popup-card input[type="number"],
+.popup-card textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  outline: none;
+}
+
+.popup-card input[type="text"]:focus,
+.popup-card input[type="number"]:focus,
+.popup-card textarea:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.popup-card .text-danger {
+  font-size: 14px;
+  color: #dc3545;
+  margin-top: 5px;
+}
+
+.popup-card button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.popup-card button.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #ffffff;
+}
+
+.popup-card button.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.popup-card button.btn-secondary {
+  background-color: #e71212;
+  border-color: #e71212;
+  margin-left: auto;
+  color: #ffffff;
+}
+
+.popup-card button.btn-secondary:hover {
+  background-color: #ef1843;
+  border-color: #ef1843;
+}
+
+#card-tit{
+  color: #007BFF;
+}
+
+/* updated */
+.Container-updated{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 300px; /* Adjust width as needed */
+  margin: 20px auto;
+}
+
+
